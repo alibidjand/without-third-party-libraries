@@ -1,0 +1,26 @@
+.searchinput {
+  width: 290px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 14px;
+}
+.submit {
+  width: 70px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 13px 10px;
+  cursor: pointer;
+}
+
+.searchform {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2px;
+  width: 500px;
+  font-family: inherit;
+  padding: 15px 0 15px 0;
+}

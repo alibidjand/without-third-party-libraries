@@ -1,7 +1,7 @@
 import { useMemo } from "react";
-import { useGlobalContext } from "../hook/global-context";
-import SearchBar from "./search-bar";
-import SearchHistory from "./search-history";
+import { useGlobalContext } from "../../hook/global-context";
+import SearchBar from "../../pages/search-bar";
+import SearchHistory from "../../pages/search-history";
 
 function Body() {
   const { pageName, setPageName, setShowProfile } = useGlobalContext();

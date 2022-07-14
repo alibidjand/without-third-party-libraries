@@ -1,6 +1,6 @@
-import Button from "../components/button/button";
-import { initialPersonInfo } from "../dummy-data/initial-data";
-import { useGlobalContext } from "../hook/global-context";
+import Button from "../button/button";
+import { initialPersonInfo } from "../../dummy-data/initial-data";
+import { useGlobalContext } from "../../hook/global-context";
 
 function Header() {
   const {

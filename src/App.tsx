@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Header from "./pages/header";
+import Header from "./components/layouts/header";
 import { MyGlobalContext } from "./hook/global-context";
-import Body from "./pages/body";
 import { PersonInfo } from "./types/person";
 import { initialPersonInfo } from "./dummy-data/initial-data";
 import {
   getLocalStorage,
   setLocalStorage,
 } from "./utils/get-set-search-history-localhost";
+import Body from "./components/layouts/body";
 
 function App() {
   const [pageName, setPageName] = useState("search-bar");
